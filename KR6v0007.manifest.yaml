@@ -1,0 +1,403 @@
+canonical_identifier: bkk:krp/KR6v0007/v1
+canonical_location: https://kanripo.org/bkk/KR6v0007/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 《行事鈔》中分門圖錄
+  identifiers:
+    alt_id:
+    - W01n0006
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/ZW/ZW01/ZW01n0006.xml
+    old_id: ZW01n0006
+  edition:
+    short: bkk
+editions:
+- short: 藏外
+  label: 藏外
+  source_xml_id: wit.orig
+- short: ZW
+assets:
+  parts:
+  - {seq: 0, filename: KR6v0007_000.yaml, hash: 'sha256:d0cc5b9177432e43ca0fdffd14ac5614188049025a24fb3ac2ab6be6a72403d9'}
+  - {seq: 1, filename: KR6v0007_001.yaml, hash: 'sha256:487bee0f01899182ad65d20b2133b0fda92667b521437507369e4921e65bc134'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR6v0007_000.markers.yaml, hash: 'sha256:7ac2185b25f7c8f4ab9d4c86afe5636c95c4ad543a201242a7d74be0f5635374'}
+  - {seq: 1, role: markers, filename: assets/KR6v0007_001.markers.yaml, hash: 'sha256:4c31289742cab776045c5b8f36bc4d9d5dc70e21f2a60d67707f280bbb14156e'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR6v0007_ZW_000-mulu-1
+    span:
+    - front
+    - 0
+    - 0
+  label: 題解
+  type: mulu
+  level: 1
+- ref:
+    seq: 0
+    marker_id: KR6v0007_ZW_000-mulu-2
+    span:
+    - front
+    - 241
+    - 241
+  label: 錄文
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6v0007_ZW_001-juan-start
+    span:
+    - body
+    - 0
+    - 11609
+  label: 行事鈔中分門圖錄一卷
+  type: juan
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6v0007_ZW_001-mulu-1
+    span:
+    - body
+    - 10
+    - 10
+  label: 序
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6v0007_ZW_001-mulu-2
+    span:
+    - body
+    - 662
+    - 662
+  label: 上卷　有十二篇　攝於眾務
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6v0007_ZW_001-mulu-3
+    span:
+    - body
+    - 672
+    - 672
+  label: 標宗顯德篇
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6v0007_ZW_001-mulu-4
+    span:
+    - body
+    - 790
+    - 790
+  label: 集僧通局篇
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6v0007_ZW_001-mulu-5
+    span:
+    - body
+    - 953
+    - 953
+  label: 足數眾相篇
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6v0007_ZW_001-mulu-6
+    span:
+    - body
+    - 1114
+    - 1114
+  label: 受欲是非篇
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6v0007_ZW_001-mulu-7
+    span:
+    - body
+    - 1202
+    - 1202
+  label: 通辨羯磨篇
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6v0007_ZW_001-mulu-8
+    span:
+    - body
+    - 1699
+    - 1699
+  label: 結界方法篇
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6v0007_ZW_001-mulu-9
+    span:
+    - body
+    - 2099
+    - 2099
+  label: 僧網大綱篇
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6v0007_ZW_001-mulu-10
+    span:
+    - body
+    - 2392
+    - 2392
+  label: 受戒緣集篇
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6v0007_ZW_001-mulu-11
+    span:
+    - body
+    - 2821
+    - 2821
+  label: 師資相攝篇
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6v0007_ZW_001-mulu-12
+    span:
+    - body
+    - 3000
+    - 3000
+  label: 說戒正儀篇
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6v0007_ZW_001-mulu-13
+    span:
+    - body
+    - 3202
+    - 3202
+  label: 安居策修篇
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6v0007_ZW_001-mulu-14
+    span:
+    - body
+    - 3581
+    - 3581
+  label: 自恣宗要篇
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6v0007_ZW_001-mulu-15
+    span:
+    - body
+    - 3899
+    - 3899
+  label: 中卷　有四篇　遵於戒體　持犯立懺
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6v0007_ZW_001-mulu-16
+    span:
+    - body
+    - 3912
+    - 3912
+  label: 篇聚名報篇
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6v0007_ZW_001-mulu-17
+    span:
+    - body
+    - 4057
+    - 4057
+  label: 隨戒釋相篇
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6v0007_ZW_001-mulu-18
+    span:
+    - body
+    - 5906
+    - 5906
+  label: 持犯方軌篇
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6v0007_ZW_001-mulu-19
+    span:
+    - body
+    - 7146
+    - 7146
+  label: 懺六聚法篇
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6v0007_ZW_001-mulu-20
+    span:
+    - body
+    - 8391
+    - 8391
+  label: 下卷　明隨機要行　有十四篇
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6v0007_ZW_001-mulu-21
+    span:
+    - body
+    - 8402
+    - 8402
+  label: 二衣總別篇
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6v0007_ZW_001-mulu-22
+    span:
+    - body
+    - 9448
+    - 9448
+  label: 四藥受淨篇
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6v0007_ZW_001-mulu-23
+    span:
+    - body
+    - 10043
+    - 10043
+  label: 鉢器制聽篇
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6v0007_ZW_001-mulu-24
+    span:
+    - body
+    - 10167
+    - 10167
+  label: 對施興治篇
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6v0007_ZW_001-mulu-25
+    span:
+    - body
+    - 10256
+    - 10256
+  label: 頭陀行儀篇
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6v0007_ZW_001-mulu-26
+    span:
+    - body
+    - 10392
+    - 10392
+  label: 僧像致敬篇
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6v0007_ZW_001-mulu-27
+    span:
+    - body
+    - 10567
+    - 10567
+  label: 訃請設則篇
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6v0007_ZW_001-mulu-28
+    span:
+    - body
+    - 10765
+    - 10765
+  label: 道俗化方篇
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6v0007_ZW_001-mulu-29
+    span:
+    - body
+    - 10992
+    - 10992
+  label: 主客相待篇
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6v0007_ZW_001-mulu-30
+    span:
+    - body
+    - 11047
+    - 11047
+  label: 瞻病送終篇
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6v0007_ZW_001-mulu-31
+    span:
+    - body
+    - 11113
+    - 11113
+  label: 諸雜要行篇
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6v0007_ZW_001-mulu-32
+    span:
+    - body
+    - 11195
+    - 11195
+  label: 沙彌別行篇
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6v0007_ZW_001-mulu-33
+    span:
+    - body
+    - 11367
+    - 11367
+  label: 尼眾別行篇
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6v0007_ZW_001-mulu-34
+    span:
+    - body
+    - 11546
+    - 11546
+  label: 諸部別行篇
+  type: mulu
+  level: 1
+hash: sha256:a259861d72ef76ea05bb51ce2fcc27344ec40fb32efda68962652ed142291c41
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
